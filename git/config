@@ -1,0 +1,11 @@
+[user]
+	name = amairovi
+[core]
+	autocrlf = input
+[alias]
+	lol = log --format=oneline -n
+	ri = rebase -i
+	pushf = push -f
+	cob = checkout -b
+	com = checkout master
+	co = checkout
