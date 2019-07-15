@@ -9,3 +9,4 @@
 	cob = checkout -b
 	com = checkout master
 	co = checkout
+	bd = branch -D
