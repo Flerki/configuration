@@ -11,3 +11,4 @@
 	co = checkout
 	bd = branch -D
 	br = !git branch | grep -v master | xargs git branch -D
+	cp = cherry-pick
