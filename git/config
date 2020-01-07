@@ -1,10 +1,10 @@
-[user]
-	name = amairovi
 [core]
 	autocrlf = input
 [alias]
 	lol = log --format=oneline -n
 	ri = rebase -i
+	rbc = rebase --continue
+	rbm = rebase master
 	pushf = push -f
 	cob = checkout -b
 	com = checkout master
@@ -12,3 +12,5 @@
 	bd = branch -D
 	br = !git branch | grep -v master | xargs git branch -D
 	cp = cherry-pick
+	cpc = cp --continue
+	sa = "!f() { stash apply stash@{$1}; }; f"
