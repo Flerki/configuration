@@ -1,0 +1,6 @@
+# add the following to your .bash_profile
+# [[ -f path_to_this_bash_profile  ]] && source path_to_this_bash_profile path_to_configuration_repo_folder
+
+PATH_TO_CONFIGURATION_REPO=$1
+
+PATH="$PATH:$PATH_TO_CONFIGURATION_REPO/script"
