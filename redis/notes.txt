@@ -1,0 +1,5 @@
+# Run redis in docker container
+docker run --rm -d --name redis -p 6379:6379 redis:{version}
+
+#example
+docker run --rm -d --name redis -p 6379:6379 redis:5

@@ -1,0 +1,6 @@
+docker run --rm -d --name mongo -p 27017:27017 -v ~/mongo/data:/data/db mongo:3.6
+
+
+// Start bash for container with name 'mongo'
+docker exec -it mongo bash
+
